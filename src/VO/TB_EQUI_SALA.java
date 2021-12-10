@@ -2,11 +2,10 @@ package VO;
 
 public class TB_EQUI_SALA extends TB_AGENDAMENTO{
 	
-	private int CD_ID;	
 	private int TB_EQUIPAMENTO_CD_ID;
 	private int TB_SALA_CD_id_Sala;
 	
-	public TB_EQUI_SALA(int CD_ID) {		
+	public TB_EQUI_SALA(int CD_ID, int TB_EQUIPAMENTO_CD_ID, int TB_SALA_CD_id_Sala) {		
 		super(CD_ID);
 		this.TB_EQUIPAMENTO_CD_ID = TB_EQUIPAMENTO_CD_ID;
 		this.TB_SALA_CD_id_Sala = TB_SALA_CD_id_Sala;

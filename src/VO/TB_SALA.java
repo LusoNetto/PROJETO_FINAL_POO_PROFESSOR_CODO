@@ -2,7 +2,6 @@ package VO;
 
 public class TB_SALA extends TB_EQUI_SALA{
 	
-	private int CD_ID;	
 	private String NM_NUMERO;
 	private char Bl_OCUPADA;
 	private int TB_TIPOSALA_CD_ID;
